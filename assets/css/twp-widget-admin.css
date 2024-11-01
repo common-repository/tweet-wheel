@@ -1,0 +1,11 @@
+.twp-widget-settings {
+    margin-top: 10px;
+}
+
+.twp-widget-settings .twp-option-group {
+    box-sizing: border-box;
+}
+
+.twp-widget-settings .twp-option-group p {
+    margin-bottom: 8px !important;
+}

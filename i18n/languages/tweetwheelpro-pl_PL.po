@@ -1,0 +1,917 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tweet Wheel Pro\n"
+"POT-Creation-Date: 2015-06-20 18:30-0000\n"
+"PO-Revision-Date: 2015-06-20 18:30-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: tweet-wheel-pro.php\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-twp-analytics.php:76
+#: includes/admin/class-twp-analytics.php:77
+#: includes/admin/class-twp-analytics.php:104
+msgid "Analytics"
+msgstr "Statystyki"
+
+#: includes/admin/class-twp-analytics.php:162
+msgid "Retweets"
+msgstr "Podań dalej"
+
+#: includes/admin/class-twp-analytics.php:166
+msgid "Favorites"
+msgstr "Polubień"
+
+#: includes/admin/class-twp-analytics.php:171
+#: includes/admin/class-twp-analytics.php:175
+msgid "Clicks"
+msgstr "Kliknięć"
+
+#: includes/admin/class-twp-analytics.php:175
+msgid "Not Available"
+msgstr "Niedostepne"
+
+#: includes/admin/class-twp-analytics.php:202
+msgid ""
+"In order to track clicks you have to set up a Bit.ly account in plugin's "
+"settings. We cannot track clicks on links, which are not shortened, "
+"therefore any tweets sent before the authorisation with Bit.ly will always "
+"show 0 clicks."
+msgstr ""
+"Aby śledzić kliknięcia musisz ustawić konto Bit.ly w konfiguracji wtyczki. "
+"Nie możemy śledzić kliknięć linków, które nie zostały skrócone, dlatego "
+"jakiekolwiek tweety wysłane przed autoryzacji z Bit.ly będą wskazywać 0 "
+"kliknięć."
+
+#: includes/admin/class-twp-cron.php:79
+msgid "Every Minute"
+msgstr "Co Minutę"
+
+#: includes/admin/class-twp-cron.php:204
+msgid "Tweet Wheel needs WP Cron to be enabled!"
+msgstr "Tweet Wheel wymaga włączonego WP Crona!"
+
+#: includes/admin/class-twp-cron.php:204
+msgid "I know, don't bug me."
+msgstr "Wiem, nie powiadamiaj mnie o tym więcej."
+
+#: includes/admin/class-twp-dashboard.php:65
+msgid "Welcome to Tweet Wheel Pro!"
+msgstr "Witaj w Tweet Wheel Pro!"
+
+#: includes/admin/class-twp-dashboard.php:69
+#, php-format
+msgid ""
+"Thank you for joining a happy family of all Tweet Wheel Pro users!<br/>\n"
+"                Tweet Wheel Pro %s is now ready to keep your <br/>\n"
+"                Twitter profile active and engaging at all times!"
+msgstr ""
+"Dziękujemy za przyłączenie się do szczęśliwej rodziny wszystkich "
+"użytkowników Tweet Wheel Pro!<br/>\n"
+"Tweet Wheel Pro %s jest już gotowy, aby utrzymać <br/>\n"
+"Twój profil na Twitterze aktywnym i angażującym cały czas!"
+
+#: includes/admin/class-twp-dashboard.php:74
+#: includes/admin/class-twp-debug.php:165
+msgid "Version"
+msgstr "Wersja"
+
+#: includes/admin/class-twp-dashboard.php:79
+msgid "What's new"
+msgstr "Co nowego"
+
+#: includes/admin/class-twp-dashboard.php:80
+msgid ""
+"Tweet Wheel Pro introduces many new features and improvements in comparison "
+"to Tweet Wheel free version. With TWP you can: shorten links with your own "
+"domain, attach photos to your tweets, track retweets, favorites and clicks "
+"and many more! To top it up you also get a lovely &amp; free premium support "
+"from the author. Enjoy!"
+msgstr ""
+"Tweet Wheel Pro wprowadza wiele nowych funkcji i ulepszeń w porównaniu do "
+"darmowej wersji. W TWP możesz: skracać linki używając swojej własnej domeny, "
+"załączać zdjęcia do Twoich tweetów, śledzić podania dalej, polubienia i "
+"kliknięcia i wiele więcej! Jakby tego było mało, otrzymujesz uprzejmą i "
+"darmowa pomoc od autora!"
+
+#: includes/admin/class-twp-dashboard.php:84
+msgid "Let's meet"
+msgstr "Poznajmy się"
+
+#: includes/admin/class-twp-dashboard.php:90
+msgid "If there is one desire of every website owner, it is the exposure."
+msgstr ""
+"Jeżeli jest coś, czego pożąda każdy właściciel strony, to jest to ekspozycja."
+
+#: includes/admin/class-twp-dashboard.php:91
+msgid ""
+"Tweet Wheel is a simple and yet powerful tool that everyone will fall in "
+"love with. The idea behind Tweet Wheel is to take the burden off website "
+"owners' shoulders and let them focus on the thing they are best at."
+msgstr ""
+"Tweet Wheel to proste, lecz potężne narzędzie, w którym każdy się zakocha. "
+"Zadaniem wtyczki jest odciążenie właścicieli stron i umożliwienie im "
+"skupienia się na tym w czym są najlepsi."
+
+#: includes/admin/class-twp-dashboard.php:92
+msgid ""
+"Promote your blog entires, shop products, case studies, pages and anything "
+"you like!"
+msgstr ""
+"Promuj swoje wpisy na blogu, produkty w sklepie, przykładowe prace, strony i "
+"cokolwiek tylko chcesz!"
+
+#: includes/admin/class-twp-dashboard.php:93
+msgid ""
+"Thanks to a built-in queueing system, Tweet Wheel is as easy to manage as a "
+"music playlist!"
+msgstr ""
+"Dzięki wbudowanemu systemowi kolejkowania, Tweet Wheel Pro jest tak prosty w "
+"obsłudze jak listy odtwarzania muzyki!"
+
+#: includes/admin/class-twp-dashboard.php:101
+msgid "Beauty of the automation"
+msgstr "Piękno automatyzacji"
+
+#: includes/admin/class-twp-dashboard.php:103
+msgid ""
+"Never worry again tweeting regularly about your content. Tweet Wheel will do "
+"it for you. Automatically."
+msgstr ""
+"Przestań martwić się o regularne tweetowanie treści Twojej strony. Tweet "
+"Wheel pro zrobi to za Ciebie. Automatycznie."
+
+#: includes/admin/class-twp-dashboard.php:113
+msgid "Say it in many ways"
+msgstr "Powiedz to na wiele sposobów"
+
+#: includes/admin/class-twp-dashboard.php:115
+msgid ""
+"We introduced multiple tweet templates to avoid sounding like a broken "
+"record. Now you can set as many tweet variations for each post as you like!"
+msgstr ""
+"Wprowadziliśmy wiele szablonów tweetów, aby uniknąć brzmienia jak zdarta "
+"płyta. Teraz można ustawić dowolną liczbę odmian tweetów dla każdego wpisu!"
+
+#: includes/admin/class-twp-dashboard.php:125
+msgid "Benefit from controlled regularity"
+msgstr "Korzyści z kontrolowanej regularności"
+
+#: includes/admin/class-twp-dashboard.php:127
+msgid ""
+"With an in-built scheduler, you can tweet regularly on specific days at "
+"specific time. Just the way your followers would expect you to."
+msgstr ""
+"Z wbudowanym harmonogramem, można regularnie tweetować w określone dni o "
+"określonym czasie. Dokładnie tak jak obserwujący Twój profil mogli by "
+"oczekiwać."
+
+#: includes/admin/class-twp-dashboard.php:138
+msgid "The amazing bit"
+msgstr "Nieco niesamowitości"
+
+#: includes/admin/class-twp-dashboard.php:141
+msgid "Customise the queue"
+msgstr "Dostosowywanie kolejki"
+
+#: includes/admin/class-twp-dashboard.php:142
+msgid ""
+"Add, remove, exclude and shuffle the queue the way you please! Tweet Wheel "
+"will never tweet without your consent."
+msgstr ""
+"Dodaj, usuń, wyklucz i zmień kolejność wpisów w kolejce jak tylko chcesz! "
+"Tweet Wheel Pro nigdy nie będzie publikował bez Twojej zgody."
+
+#: includes/admin/class-twp-dashboard.php:145
+msgid "Control the timing"
+msgstr "Kontroluj czas"
+
+#: includes/admin/class-twp-dashboard.php:146
+msgid ""
+"Keep your profile consistent and organised. Schedule posts on specific days "
+"at specific times!"
+msgstr ""
+"Utrzymój swój profil spójny i zorganizowany. Zaplanuj publikowanie wpisów w "
+"konkretne dni o określonym czasie!"
+
+#: includes/admin/class-twp-dashboard.php:151
+msgid "Tweet once or infinitely"
+msgstr "Tweetuj raz lub nieskończenie"
+
+#: includes/admin/class-twp-dashboard.php:152
+msgid ""
+"Let Tweet Wheel reschedule every tweeted post.. or don't. It's up to you!"
+msgstr ""
+"Pozwól wtyczce zakolejkować ponownie wysłane tweety .. lub nie. To zależy od "
+"Ciebie!"
+
+#: includes/admin/class-twp-dashboard.php:155
+msgid "Benefit from templating"
+msgstr "Skorzystaj z szablonów"
+
+#: includes/admin/class-twp-dashboard.php:156
+msgid ""
+"Set a default post tweet template or overwrite it with each post's custom "
+"one! Now multi-templating available, too!"
+msgstr ""
+"Ustaw domyślny szablon tweeta lub nadpisz go niestandardowym w ustawieniach "
+"wpisu! Teraz możesz ustawić wiele szablonów naraz!"
+
+#: includes/admin/class-twp-dashboard.php:161
+msgid "Automatically queue new posts"
+msgstr "Automatyczne kolejkuj nowe wpisy"
+
+#: includes/admin/class-twp-dashboard.php:162
+msgid "Why bother when it can be done automagically!"
+msgstr "Po co męczyć się, kiedy można to zrobić automatycznie!"
+
+#: includes/admin/class-twp-dashboard.php:165
+msgid "Engage with your audience"
+msgstr "Wejdź w interakcje z publicznością"
+
+#: includes/admin/class-twp-dashboard.php:166
+msgid ""
+"Focus on running your blog or your business. Leave the rest to Tweet Wheel."
+msgstr ""
+"Skup się na prowadzeniu swojego bloga lub firmy. Pozostaw resztę w rękach "
+"Tweet Wheel Pro."
+
+#: includes/admin/class-twp-dashboard.php:174
+msgid "Start wheelin' !"
+msgstr "Zacznij teraz!"
+
+#: includes/admin/class-twp-debug.php:69 includes/admin/class-twp-debug.php:70
+#: includes/admin/class-twp-debug.php:97
+msgid "Health Check"
+msgstr "Stan Zdrowia"
+
+#: includes/admin/class-twp-debug.php:163
+msgid "Tweet Wheel"
+msgstr "Tweet Wheel"
+
+#: includes/admin/class-twp-debug.php:166
+msgid "Database Version"
+msgstr "Wersja Bazy Danych"
+
+#: includes/admin/class-twp-debug.php:170
+msgid "WordPress Installation"
+msgstr "Instalacja WordPressa"
+
+#: includes/admin/class-twp-debug.php:172
+msgid "Home URL"
+msgstr "Adres strony domowej"
+
+#: includes/admin/class-twp-debug.php:173
+msgid "Site URL"
+msgstr "Adres instalacji strony"
+
+#: includes/admin/class-twp-debug.php:174
+msgid "WP Multisite"
+msgstr "WP Multisite"
+
+#: includes/admin/class-twp-debug.php:174
+msgid "Yes"
+msgstr "Tak"
+
+#: includes/admin/class-twp-debug.php:174
+msgid "No"
+msgstr "Nie"
+
+#: includes/admin/class-twp-debug.php:175
+msgid "WP Version"
+msgstr "Wersja WP"
+
+#: includes/admin/class-twp-debug.php:176
+msgid "WP Cron"
+msgstr "WP Cron"
+
+#: includes/admin/class-twp-debug.php:176
+msgid "Disabled"
+msgstr "Wyłączone"
+
+#: includes/admin/class-twp-debug.php:176
+msgid "Enabled"
+msgstr "Włączone"
+
+#: includes/admin/class-twp-debug.php:180
+msgid "Server Environment"
+msgstr "Środowisko serwera"
+
+#: includes/admin/class-twp-debug.php:182
+msgid "Web Server"
+msgstr "Serwer WWW"
+
+#: includes/admin/class-twp-debug.php:183
+msgid "cURL Module"
+msgstr "Moduł cURL"
+
+#: includes/admin/class-twp-debug.php:183
+msgid "Installed"
+msgstr "Zainstalowany"
+
+#: includes/admin/class-twp-debug.php:183
+msgid "Not Installed"
+msgstr "Niezainstalowany"
+
+#: includes/admin/class-twp-license.php:70
+#: includes/admin/class-twp-license.php:73
+msgid "License"
+msgstr "Licencja"
+
+#: includes/admin/class-twp-license.php:75
+msgid ""
+"In order to receive automated plugin updates, you need to provide your "
+"username and an item purchase code available on CodeCanyon."
+msgstr ""
+"W celu otrzymania automatycznych aktualizacji wtyczki, prosimy podać nazwę "
+"użytkownika i kod zakupu przedmiotu ze strony CodeCanyon."
+
+#: includes/admin/class-twp-license.php:75
+msgid "Click here"
+msgstr "Kliknij tutaj"
+
+#: includes/admin/class-twp-license.php:75
+msgid "to learn where to find it."
+msgstr ", aby dowiedzieć się gdzie go znaleźć."
+
+#: includes/admin/class-twp-license.php:79
+msgid "License Status"
+msgstr "Stan licencji"
+
+#: includes/admin/class-twp-license.php:85
+msgid "Envato Username"
+msgstr "Nazwa użytkownika Envato"
+
+#: includes/admin/class-twp-license.php:91
+msgid "Item Purchase Code"
+msgstr "Kod zakupu przedmiotu"
+
+#: includes/admin/class-twp-license.php:198
+msgid "License is active! Thank you so much for your support!"
+msgstr "Licencja jest aktywna! Dziękuję bardzo za wsparcie!"
+
+#: includes/admin/class-twp-license.php:202
+msgid "License is inactive. Please provide correct information below."
+msgstr "Licencja jest nieaktywna. Proszę podać prawidłowe informacje poniżej."
+
+#: includes/admin/class-twp-link-shortening.php:81
+msgid "Link Shortening"
+msgstr "Skracanie Linków"
+
+#: includes/admin/class-twp-link-shortening.php:86
+#: includes/admin/class-twp-link-shortening.php:122
+msgid "Bit.ly"
+msgstr "Bit.ly"
+
+#: includes/admin/class-twp-link-shortening.php:88
+msgid "Tweet Wheel is authorised with Bit.ly! Happy stalking on statistics!"
+msgstr "Tweet Wheel jest połączony z Bit.ly! Miłego śledzenia statystyk!"
+
+#: includes/admin/class-twp-link-shortening.php:104
+msgid "Domain used for shortening"
+msgstr "Domena wykorzystywana do skracania"
+
+#: includes/admin/class-twp-link-shortening.php:114
+msgid "Access token"
+msgstr "Token dostępu"
+
+#: includes/admin/class-twp-link-shortening.php:122
+msgid ""
+"Before you can use link shortening & track clicks you have to authorise "
+"Tweet Wheel to access your Bit.ly account. It's totally safe."
+msgstr ""
+"Zanim będziesz mógł skorzystać ze skracania linków & śledzenia kliknięć, "
+"musisz dokonać autoryzacji z Twoim kontem na portalu Bit.ly. Jest to "
+"zupełnie bezpieczne."
+
+#: includes/admin/class-twp-link-shortening.php:122
+msgid "Please follow"
+msgstr "Prosimy podążać"
+
+#: includes/admin/class-twp-link-shortening.php:122
+msgid "this link"
+msgstr "za tym linkiem"
+
+#: includes/admin/class-twp-link-shortening.php:122
+msgid ""
+"to retrieve required information from Bit.ly and paste it into the field "
+"below."
+msgstr ""
+", aby uzyskać wymagane informacje ze strony Bit.ly. Następnie wklej je do "
+"odpowiednich pól poniżej."
+
+#: includes/admin/class-twp-link-shortening.php:125
+msgid "Access Token"
+msgstr "Token dostępu"
+
+#: includes/admin/class-twp-menus.php:32 includes/admin/class-twp-menus.php:33
+msgid "About"
+msgstr "O programie"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin/class-twp-menus.php:60 includes/admin/class-twp-menus.php:61
+msgid "Tweet Wheel Pro"
+msgstr "Tweet Wheel Pro"
+
+#: includes/admin/class-twp-queue.php:122 includes/admin/class-twp-queue.php:123
+#: includes/admin/class-twp-queue.php:192 includes/admin/class-twp-queue.php:645
+#: includes/admin/class-twp-queue.php:679 includes/admin/class-twp-queue.php:680
+msgid "Queue"
+msgstr "Kolejka"
+
+#: includes/admin/class-twp-queue.php:234
+msgid ""
+"Your Tweet Wheel Queue is empty! Go ahead and fill it up to start sharing! "
+"<a href=\""
+msgstr ""
+"Twoje kolejka jest pusta! Śmiało, uzupełnij ją, aby zacząć dzielić się z "
+"innymi!"
+
+#: includes/admin/class-twp-queue.php:260
+msgid "Tweet Now"
+msgstr "Tweetuj teraz"
+
+#: includes/admin/class-twp-queue.php:267
+msgid "Remove"
+msgstr "Usuń"
+
+#: includes/admin/class-twp-queue.php:274
+msgid "Edit Post"
+msgstr "Edytuj wpis"
+
+#: includes/admin/class-twp-queue.php:313
+msgid "Custom template"
+msgstr "Niestandardowy szablon"
+
+#: includes/admin/class-twp-queue.php:316
+msgid "Multiple templates"
+msgstr "Wiele szablonów"
+
+#: includes/admin/class-twp-queue.php:319
+msgid "Random order"
+msgstr "Kolejność losowa"
+
+#: includes/admin/class-twp-queue.php:322
+msgid "Attached image"
+msgstr "Dołączone zdjęcie"
+
+#: includes/admin/class-twp-queue.php:348
+msgid "Resume"
+msgstr "Wznów"
+
+#: includes/admin/class-twp-queue.php:348
+msgid "Pause"
+msgstr "Pauzuj"
+
+#: includes/admin/class-twp-queue.php:349
+msgid "Refill"
+msgstr "Napełnij"
+
+#: includes/admin/class-twp-queue.php:350
+msgid "Empty"
+msgstr "Opróżnij"
+
+#: includes/admin/class-twp-queue.php:351
+msgid "Simple View"
+msgstr "Prosty Widok"
+
+#: includes/admin/class-twp-queue.php:353
+msgid "Paused"
+msgstr "Wstrzymane"
+
+#: includes/admin/class-twp-queue.php:353
+msgid "Running"
+msgstr "Uruchomione"
+
+#: includes/admin/class-twp-queue.php:358
+msgid "Are you sure? This will remove ALL your posts from Tweet Wheel's Queue!"
+msgstr ""
+"Jesteś pewny? Spowoduje to usunięcie wszystkich Twoich postów z Tweet Wheel "
+"w kolejce!"
+
+#: includes/admin/class-twp-queue.php:375
+msgid "Refill your queue with awesomeness."
+msgstr "Napełnij kolejkę wspaniałością."
+
+#: includes/admin/class-twp-queue.php:377
+msgid "Your queue is currently empty. Don't be shy!"
+msgstr "Kolejka jest pusta. Nie wstydź się!"
+
+#: includes/admin/class-twp-queue.php:404
+msgid "Max. posts to import"
+msgstr "Max. postów do importu"
+
+#: includes/admin/class-twp-queue.php:407 includes/admin/class-twp-queue.php:415
+msgid "Leave blank for all posts."
+msgstr "Pozostaw puste dla wszystkich wpisów."
+
+#: includes/admin/class-twp-queue.php:412
+msgid "Date range"
+msgstr "Zakres dat"
+
+#: includes/admin/class-twp-queue.php:424
+#, php-format
+msgid "%d item will be imported"
+msgid_plural "%d items will be imported"
+msgstr[0] "%d wpis zostanie zaimportowany"
+msgstr[1] "%d wpisy zostaną zaimportowane"
+msgstr[2] "%d wpisów zostanie zaimportowanych"
+
+#: includes/admin/class-twp-queue.php:437
+msgid "Please note posts that are already in the queue will be omitted."
+msgstr "Należy pamiętać, że wpisy, które są już w kolejce zostaną pominięte."
+
+#: includes/admin/class-twp-queue.php:442
+msgid "Fill-Up The Queue"
+msgstr "Wypełnij kolejkę"
+
+#: includes/admin/class-twp-queue.php:446
+msgid ""
+"Bummer! You need to allow some post types into the queue! Head off to the <a "
+"href=\""
+msgstr "Ups! Musisz dozwolić używanie jakiegoś typu wpisów w kolejce."
+
+#: includes/admin/class-twp-queue.php:637
+msgid "Excluded"
+msgstr "Wykluczone"
+
+#: includes/admin/class-twp-queue.php:641 includes/admin/class-twp-queue.php:681
+#: includes/admin/class-twp-queue.php:682
+msgid "Dequeue"
+msgstr "Usuń z kolejki"
+
+#: includes/admin/class-twp-queue.php:683 includes/admin/class-twp-queue.php:684
+msgid "Exclude"
+msgstr "Wyklucz"
+
+#: includes/admin/class-twp-queue.php:801
+#, php-format
+msgid "Post queued."
+msgid_plural "%s posts queued."
+msgstr[0] "Wpis został zakolejkowany."
+msgstr[1] "%s wpisy zostały zakolejkowane"
+msgstr[2] "%s wpisów zostało zakolejkowanych"
+
+#: includes/admin/class-twp-queue.php:811
+#, php-format
+msgid "Post dequeued."
+msgid_plural "%s posts dequeued."
+msgstr[0] "Wpis został usunięty z kolejki."
+msgstr[1] "%s wpisy zostały usunięte z kolejki."
+msgstr[2] "%s wpisów zostało usuniętych z kolejki."
+
+#: includes/admin/class-twp-queue.php:821
+#, php-format
+msgid "Post excluded."
+msgid_plural "%s posts excluded."
+msgstr[0] "Wpis został wykluczony."
+msgstr[1] "%s wpisy zostały wykluczone."
+msgstr[2] "%s zostało wykluczonych."
+
+#: includes/admin/class-twp-queue.php:878
+msgid "Next tweet's template"
+msgstr "Następny szablon tweeta"
+
+#: includes/admin/class-twp-queue.php:884
+msgid "Recently tweeted template"
+msgstr "Ostatnio tweetnięty szablon"
+
+#: includes/admin/class-twp-schedule.php:67
+msgctxt "a schedule of something"
+msgid "Schedule"
+msgstr "Harmonogram"
+
+#: includes/admin/class-twp-schedule.php:68
+msgid "Schedule options"
+msgstr "Opcje harmonogramu"
+
+#: includes/admin/class-twp-schedule.php:71
+msgid "Week days"
+msgstr "Dni tygodnia"
+
+#: includes/admin/class-twp-schedule.php:106
+#: includes/admin/class-twp-schedule.php:138
+msgid "Times"
+msgstr "Czasy"
+
+#: includes/admin/class-twp-schedule.php:168
+msgid "Tweeting Times"
+msgstr "Czasy tweetowania"
+
+#: includes/admin/class-twp-schedule.php:170
+msgid "Add a Tweeting Time"
+msgstr "Dodaj czas tweetowania"
+
+#: includes/admin/class-twp-settings-general.php:30
+msgid "General"
+msgstr "Ogólne"
+
+#: includes/admin/class-twp-settings-general.php:31
+msgid "General options"
+msgstr "Ogólne opcje"
+
+#: includes/admin/class-twp-settings-general.php:34
+#: includes/admin/class-twp-settings-general.php:120
+msgid "Allowed post types"
+msgstr "Dozwolone typy wpisów"
+
+#: includes/admin/class-twp-settings-general.php:35
+msgid "Select custom post types, which should be used by the plugin"
+msgstr ""
+"Wybierz niestandardowe typy wpisów, które powinny być używane przez wtyczkę"
+
+#: includes/admin/class-twp-settings-general.php:41
+msgid "Exclude new posts from the queue?"
+msgstr "Wykluczyć nowe posty z kolejki?"
+
+#: includes/admin/class-twp-settings-general.php:42
+msgid "Check if you want new posts to be excluded from the queue by default."
+msgstr ""
+"Zaznacz jeśli chcesz, aby nowe wpisy były wykluczone z kolejki domyślnie."
+
+#: includes/admin/class-twp-settings-general.php:51
+msgid "Default tweet template"
+msgstr "Domyślny szablon tweeta"
+
+#: includes/admin/class-twp-settings-general.php:52
+msgid ""
+"Default tweet text can be overriden by custom post tweet text setting "
+"available on edit page of each post. Allowed tags: {{TITLE}} for post title "
+"and {{URL}} for post permalink."
+msgstr ""
+"Domyślnie treść tweeta możesz zostać nadpisana przez niestandardowy szablon "
+"dostępne w ustawieniach pojedynczego wpisu. Dozwolone skróty: {{TITLE}} dla "
+"tytułu wpisy i {{URL}} dla adresu internetowego wpisu."
+
+#: includes/admin/class-twp-settings-general.php:55
+msgid "What's happenng?"
+msgstr "Co nowego?"
+
+#: includes/admin/class-twp-settings-general.php:60
+msgid "Loop infinitely?"
+msgstr "Zapętlaj kolejkę w nieskończoność"
+
+#: includes/admin/class-twp-settings-general.php:61
+msgid ""
+"Check if you want the most recent tweeted post to be re-queued automatically."
+msgstr ""
+"Zaznacz jeśli chcesz, aby ostatnio tweetnięte wpisy były ponownie dodawane "
+"na koniec kolejki automatycznie."
+
+#: includes/admin/class-twp-settings-general.php:71
+msgid "Disconnect Twitter Account"
+msgstr "Odłącz konto Twittera"
+
+#: includes/admin/class-twp-settings-general.php:72
+msgid "You will need to authorize another account to resume using this plugin."
+msgstr ""
+"Będziesz musiał dodać inne konto Twittera, aby wznowić działanie tej wtyczki."
+
+#: includes/admin/class-twp-settings-general.php:84
+#: includes/admin/class-twp-settings-general.php:85
+#: includes/libraries/envato/MyEnvatoBaseApi.php:204
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/admin/class-twp-settings-general.php:98
+msgid "Tweet Wheel Settings"
+msgstr "Ustawienia Tweet Wheel"
+
+#: includes/admin/class-twp-settings.php:326
+msgid "Settings saved."
+msgstr "Zapisano ustawienia."
+
+#: includes/admin/class-twp-settings.php:440
+#, php-format
+msgid "Save %s changes"
+msgstr "Zapisz zmiany w %s"
+
+#: includes/admin/class-twp-twitter.php:76
+#: includes/admin/class-twp-twitter.php:77
+#: includes/admin/class-twp-twitter.php:222
+msgid "Authorize"
+msgstr "Autoryzuj"
+
+#: includes/admin/class-twp-twitter.php:109
+msgid "One more thing before we continue..."
+msgstr "Jeszcze jedno, zanim będziemy mogli kontynuować …"
+
+#: includes/admin/class-twp-twitter.php:115
+msgid "Twitter Authorization"
+msgstr "Twitter Autoryzacja"
+
+#: includes/admin/class-twp-twitter.php:116
+msgid ""
+"Before you can unleash the awesomeness of Tweet Wheel, you need to authorize "
+"our app to access your Twitter account. We promise to behave :)"
+msgstr ""
+"Zanim będziesz mógł uwolnić wspaniałość Tweet Wheel Pro, musisz zezwolić "
+"naszej aplikacji na dostęp do Twojego konta Twitter. Obiecujemy się "
+"zachowywać :)"
+
+#: includes/admin/class-twp-twitter.php:183
+msgid ""
+"There was an error returned by Twitter. Not your fault, though. Try again."
+msgstr ""
+"Wystąpił błąd zwrócony przez Twitter. To nie twoja wina. Spróbuj ponownie."
+
+#: includes/admin/class-twp-twitter.php:222
+msgid ""
+"You will be redirected to twitter.com and brought back after authorization."
+msgstr ""
+"Zostaniesz przekierowany na stronę twitter.com i przeniesiony z powrotem po "
+"autoryzacji."
+
+#: includes/admin/class-twp-twitter.php:226
+msgid "Invalid consumer key and/or consumer secret."
+msgstr "Nieprawidłowy dane."
+
+#: includes/admin/class-twp-twitter.php:315
+msgid "De-Authorize"
+msgstr "Wycofaj autoryzacje"
+
+#: includes/admin/class-twp-twitter.php:315
+#: includes/admin/class-twp-twitter.php:323
+msgid ""
+"Tweet Wheel will cease from working after de-authorization. Re-authorization "
+"will be required to resume the plugin."
+msgstr ""
+"Tweet Wheel Pro przestanie działać po wycofaniu autoryzacji. Ponowna "
+"autoryzacja będzie wymagana na wznowienie wtyczki."
+
+#: includes/admin/tw-metaboxes.php:60
+msgid "Tweet Settings"
+msgstr "Ustawienia Tweeta"
+
+#: includes/admin/tw-metaboxes.php:69
+msgid "Tweet Templates"
+msgstr "Szablony Tweeta"
+
+#: includes/admin/tw-metaboxes.php:106
+msgid "Post exclusion"
+msgstr "Wykluczenie wpisu"
+
+#: includes/admin/tw-metaboxes.php:107
+msgid ""
+"If you don't want this post to be queued, you can exclude it permanently by "
+"checking the box below. If a post is currently in the queue, it will be "
+"dequeued."
+msgstr ""
+"Jeśli nie chcesz, aby ten wpis został zakolejkowany możesz go wykluczyć na "
+"stałe poprzez zaznaczenie tego pola poniżej. Jeżeli wpis jest obecny w "
+"kolejce, zostanie on z niej usunięty."
+
+#: includes/admin/tw-metaboxes.php:122 includes/admin/tw-metaboxes.php:134
+msgid "Exclude this post from the queue"
+msgstr "Wyklucz ten wpis z kolejki"
+
+#: includes/admin/tw-metaboxes.php:122
+msgid "excluded by default"
+msgstr "wykluczone domyślnie"
+
+#: includes/admin/tw-metaboxes.php:147
+msgid "Post tweeting"
+msgstr "Tweetowanie wpisu"
+
+#: includes/admin/tw-metaboxes.php:148
+msgid ""
+"Ignore if you are using a default tweet template or a single custom one. "
+"Otherwise, please choose whether you would want your templates to be used in "
+"the order or randomly picked."
+msgstr ""
+"Zignoruj jeżeli używasz domyślnego szabonu tweeta lub pojedyńczego "
+"niestandardowego szablonu. W innym przypadku, proszę wybrać czy chciałbyś, "
+"aby szablony były wysyłane w podanej kolejności lub losowo."
+
+#: includes/admin/tw-metaboxes.php:150
+msgid "Follow the order"
+msgstr "Podana kolejność"
+
+#: includes/admin/tw-metaboxes.php:152
+msgid "Randomise selection"
+msgstr "Losowy wybór"
+
+#: includes/admin/tw-metaboxes.php:193
+msgid "Delete this template"
+msgstr "Usuń ten szablon"
+
+#: includes/admin/tw-metaboxes.php:193
+msgid "Enter your custom tweet text"
+msgstr "Podaj treść szablonu"
+
+#: includes/admin/tw-metaboxes.php:209
+msgid "Add a Tweet Template"
+msgstr "Dodaj szablon tweeta"
+
+#: includes/admin/tw-metaboxes.php:214
+msgid ""
+"Create as many tweet templates as you like by clicking \"Add a Tweet Template"
+"\" button above. Below you can find tags that you can use within tweet "
+"templates."
+msgstr ""
+"Utwórz tak dużo szablonów jak potrzebujesz przez klikanie na guzik “Dodaj "
+"szablon tweeta” powyżej. Poniżej możesz znaleźć skróty, które możesz użyć w "
+"treści szablonu."
+
+#: includes/admin/tw-metaboxes.php:217
+msgid "(mandatory) displays link to this post"
+msgstr "(obowiązkowe) wyświetla adres internetowy do tego wpisu"
+
+#: includes/admin/tw-metaboxes.php:220
+msgid "(optional) display this post title"
+msgstr "(opcjonalne) wyświetla tytuł tego wpisu"
+
+#: includes/admin/tw-metaboxes.php:328
+msgid "Use as a tweet's image"
+msgstr "Użyj jako obrazek tweeta"
+
+#: includes/admin/tw-metaboxes.php:328
+msgid ""
+"Please note twitter requires a tweet image to be at least 280px by 150px in "
+"order for it to be used as a photo card."
+msgstr ""
+"Proszę zauważyć, że Twitter wymaga, aby obrazek był co najmniej 280px na "
+"150px w celu użycia go razem z tweetem."
+
+#: includes/libraries/envato/class-envato-api.php:69
+#: includes/libraries/envato/class-envato-api.php:106
+#: includes/libraries/envato/class-envato-api.php:160
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Proszę podać nazwę użytkownika Envato"
+
+#: includes/libraries/envato/class-envato-api.php:73
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Proszę podać klucz API Envato"
+
+#: includes/libraries/envato/class-envato-api.php:98
+#, fuzzy
+msgid "The API \"set\" is a required parameter."
+msgstr "API \\\"set\\\" jest wymaganym parametrem."
+
+#: includes/libraries/envato/class-envato-api.php:187
+#, fuzzy
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "\\\"item ID\\\" Envato Marketplace jest wymaganym parametrem."
+
+#: includes/libraries/sf-class-format-options.php:207
+msgid "Select a page..."
+msgstr "Wybierz stronę…"
+
+#: includes/libraries/wp-updates-plugin.php:87
+#, fuzzy
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Wystąpił błąd wewnętrzny. </p> <p><a href=\"?\" onclick=\"document.location."
+"reload(); return false;\">Proszę powtórzyć próbę.</a>"
+
+#: includes/libraries/wp-updates-plugin.php:91
+msgid "An unknown error occurred"
+msgstr "Wystąpił nieznany błąd"
+
+#: tweet-wheel-pro.php:97 tweet-wheel-pro.php:108
+msgid "Cheatin&#8217; huh?"
+msgstr "Oszukujemy, co?"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://www.tweetwheel.com"
+msgstr "http://www.tweetwheel.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A powerful tool that keeps your Twitter profile active. Even when you are "
+"busy."
+msgstr ""
+"Potężne narzędzie, które utrzyma Twój profil na Twitterze aktywnym. Nawet "
+"kiedy jesteś zajęty."
+
+#. Author of the plugin/theme
+msgid "Tomasz Lisiecki from Nerd Cow"
+msgstr "Tomasz Lisiecki z Nerd Cow"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://nerdcow.co.uk"
+msgstr "https://nerdcow.co.uk"
+
+#~ msgctxt "as in: schedule of something eg. train"
+#~ msgid "Schedule"
+#~ msgstr "Harmonogram"
+
+#~ msgid "Schedule"
+#~ msgstr "Harmonogram"

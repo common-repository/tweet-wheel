@@ -1,0 +1,1954 @@
+@font-face {
+  font-family: "twp2";
+  src:url("../fonts/twp2.eot");
+  src:url("../fonts/twp2.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/twp2.woff") format("woff"),
+    url("../fonts/twp2.ttf") format("truetype"),
+    url("../fonts/twp2.svg#twp2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/** grid **/
+.row:after {
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.col {
+    float: left;
+}
+
+.two-thirds {
+    width: 66.6666%;
+}
+
+.third {
+    width: 33.3333%;
+}
+
+.sidebar {
+    margin-top: 13px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.twp-regular-text {
+    padding: 6px;
+    border: 1px solid #CCC !important;
+    margin: 0px !important;
+    box-shadow: none !important;
+}
+
+.twp-button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0;
+    padding: 6px 20px;
+    cursor: pointer;
+    border: 0px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #CCC;
+    color: #000;
+}
+
+.twp-button-primary {
+    background: #458DCF;
+    color: #fff;
+}
+
+.twp-button-important {
+    background:#D3000D;
+    color: #fff;
+}
+
+.twp-button:hover {
+    background: #BEBEBE;
+    color: #000;
+}
+
+.twp-button-primary:hover {
+    background: #3C81C1;  
+    color: #fff;
+}
+
+.twp-button-important:hover {
+    background: #B80312;  
+    color: #fff;
+}
+
+/** Menu **/
+#wp-admin-bar-twp > .ab-item:before,
+#toplevel_page_twp_auth .dashicons-before:before,
+#toplevel_page_twp_queues .dashicons-before:before {
+    font-family: "twp2" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: 'a';
+}
+
+#wp-admin-bar-twp > .ab-item:before {
+    font-size: 16px;   
+    position: relative;
+    top: 4px;
+}
+
+.twp-auth-form input[type=text] {
+    width: 100% !important;
+}
+
+/** About Page **/
+.twp-badge {
+    background: url(../images/tweet-wheel-logo-big.png) center 24px/85px 85px no-repeat #fff;
+    -webkit-background-size: 85px 85px;
+    color: #78c8e6;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    margin: 5px 0 0;
+    padding-top: 120px;
+    height: 40px;
+    display: inline-block;
+    width: 150px;
+    text-rendering: optimizeLegibility;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.twp-row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.twp-row {
+    margin: 0px -15px;
+}
+
+.twp-column {
+    width: 100%;
+    max-width: 1050px;
+    float: left;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.twp-column.half {
+    width: 50%;
+}
+
+.twp-column.third {
+    width: 33.33%;
+}
+
+.twp-column.offset-fourth {
+    margin-left: 25%;
+}
+
+@media screen and (max-width:768px) {
+    .twp-column.half,
+    .twp-column.third {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .twp-badge {
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.twp-spacer {
+    width: 100%;
+    clear: both;
+    height: 30px;
+}
+
+.twp-iframe {
+    width: 100%;
+}
+
+.twp-feature {
+    border: 1px solid #DBDBDB;
+    padding: 10px 25px;
+    background: #fff;
+}
+
+.twp-feature-pro {
+    overflow: hidden;
+    position: relative;
+}
+
+.twp-feature-pro:after {
+    width: 120px;
+    height: 120px;
+    line-height: 200px;
+    display: table-cell;
+    content: 'Pro Only';
+    text-align: center;
+    vertical-align: bottom;
+    background: #FCA712;
+    top: -60px;
+    right: -60px;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    transform: rotate(45deg);
+}
+
+.twp-feature figure {
+    margin: -10px -25px 0px -25px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.twp-feature h3 { 
+    color: #458DCF;
+}
+
+.twp-secondary-feature {
+    background: #fff;
+    border: 1px solid #DBDBDB;
+    padding: 0px 20px;
+}
+
+
+/** Tweet Templates **/
+#tw-tweet-templates .inside { margin-top: 12px; }
+
+.tw-learn-more {
+    text-decoration: none;
+    position: relative;
+    float: right;
+}
+
+.tw-template-learn-more {
+    top: 5px;
+}
+
+.tw-learn-more-content {
+    border: 1px solid #eee;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+    display: none;
+}
+
+.tw-learn-more-content p {
+    margin-top: 0px
+}
+
+.tw-learn-more-content ul {
+    margin-bottom: 0px
+}
+
+.tweet-template-item {
+    margin-top: 12px;
+}
+
+.tweet-template-item .control {
+    float: left;
+    width: 40px;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    z-index: 20;
+}
+
+.tweet-template-item .tw-template-wrap {
+    width: 100%;
+    margin-right: -40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.tweet-template-content {
+    resize: none;
+    padding: 5px;
+    padding-right: 30px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+    border: 1px solid #eee;
+    line-height: 1.4;
+    display: inline-block;
+    min-height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.tweet-template-content:focus {
+    border-color: #4E98D4;   
+}
+
+.tweet-template-content.error {
+    border: 1px solid #830000;
+}
+
+.tweet-template-textarea { display: none; }
+
+.tweet-template-item label.error {
+    display: inline-block;
+    background: #830000;
+    color: #fff;
+    padding: 4px;
+    position: relative;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 5px;
+    top: -2px;
+}
+
+.twp-counter {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 20;
+    cursor: default;
+    background: #4E98D4;
+    border-radius: 0px 4px 0px 4px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    padding: 0px 4px;
+}
+
+.twp-counter.too-long {
+    background: #830000;
+}
+
+/* Hashtags */
+
+.tw-tag {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2px 4px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-right: 1px;
+}
+
+.tw-tag,
+.tw-tag:focus {
+    outline: none;
+}
+
+.tw-tag:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.tw-tag:hover .tw-hashtag-popup {
+    display: block;   
+}
+
+.tw-tag-loading:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+    background: rgba(241, 241, 241, 0.5) url('../images/ajax-loader.gif') no-repeat center center;
+    left: 0px;
+    top: 0px;
+}
+
+.tw-popularity-epic { 
+    background: rgba(58, 237, 100, 0.3);
+    border-color: #3AED64;
+}
+
+.tw-popularity-good {  
+    background: rgba(107, 164, 216, 0.3);
+    border-color: rgb(107, 164, 216);
+}
+
+.tw-popularity-overused {  
+    background: rgba(238, 60, 80, 0.3);
+    border-color: #EE3C50;
+}
+
+.tw-popularity-unused { 
+    background: #f1f1f1;
+    border-color: #d7d7d7;
+}
+
+.tag-legend {
+    margin-top: 20px;   
+}
+
+.tag-legend span {
+    margin-right: 10px;
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+.tag-legend .cube {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.tag-legend .cube.overused {
+    background: rgba(238, 60, 80, 0.6);
+    border-color: #EE3C50;
+}
+
+.tag-legend .cube.epic {
+    background: rgba(58, 237, 100, 0.6);
+    border-color: #3AED64;
+}
+
+.tag-legend .cube.good {
+    background: rgba(107, 164, 216, 0.6);
+    border-color: rgb(107, 164, 216);
+}
+
+.tag-legend .cube.unused {
+    background: #f1f1f1;
+    border-color: #888;
+}
+
+/* ... */
+
+/* Tweet Wheel General Settings */
+#tw-general .title {
+    margin: 0px;
+}
+
+#tw-general textarea {
+    width: 100% !important;
+}
+
+label[for^=user_roles] {
+    width: 100%;
+    display: block;
+}
+
+/* Tweet Wheel Schedule */
+.weekly-schedule-tabs {
+    width: 100%;
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.weekly-schedule-tabs li {
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 0px;
+}
+
+.weekly-schedule-tabs li span {
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.weekly-schedule-tabs li span.active,
+.weekly-schedule-tabs li span:hover {
+    background: #f0f0f0;
+}
+
+.tw-schedule-weekly-inner {
+    background: #f0f0f0;
+    float: left;
+    width: 100%;
+    padding: 12px;
+    position: relative;
+    display: none;
+}
+
+.tw-schedule-weekly-inner .times  {
+    margin: 0px;
+    margin-top: 5px;
+    border-top: 1px solid #b1b1b1;
+}
+
+.tw-schedule-weekly-inner .times li {
+    margin-top: 10px;
+}
+
+.tw-schedule-weekly-inner .times .remove-time {
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+}
+
+.tw-schedule-weekly-inner .times .remove-time:hover {
+    color: crimson;
+}
+
+.schedule-tools {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.schedule-tools > li {
+    display: inline-block;
+    width: 25%;
+    margin-right: -4px;
+    border-right: 1px solid #b1b1b1;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.schedule-tools > li:last-child {
+    border: none;
+}
+
+.schedule-tools > li > a,
+.schedule-tools > li > span {
+    text-decoration: none;
+    color: #458dcf;
+    cursor: pointer;
+    display: block;
+    padding: 3px 0px;
+}
+
+.schedule-tools > li > a.clear-times {
+    color: red;
+}
+
+.schedule-tools > li > span.active {
+    background: #fff;
+}
+
+.schedule-tools ul {
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    background: #fff;
+    width: 100%;
+    display: none;
+    padding: 10px 0px;
+}
+
+.schedule-tools ul span {
+    line-height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.tw-date-schedule {
+    width: 100%;
+    display: block;
+}
+
+.twp-schedule-date-calendar {
+    float: left;
+    width: 50%;
+    margin-right: 1%;
+}
+
+.twp-schedule-date-times {
+    width: 260px;
+    float: right;
+    position: relative;
+}
+
+.twp-schedule-date-times .twp-remove-date-time {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.twp-schedule-date-times h4 {
+    font-size: 18px;
+    line-height: 26px;
+    border-bottom: 1px solid #888;
+    margin-bottom: 10px;
+}
+
+.twp-schedule-date-times .twp-remove-date-time:hover {
+    color: red;
+}
+
+.twp-schedule-date-times .schedule-tools > li {
+    width: 33.3333%;
+}
+
+.twp-schedule-date-times .schedule-tools ul {
+    width: 150px;
+}
+
+/** Tweet Preview on Post Edit Page **/
+.mb-tweet-preview {
+    padding: 20px 80px 0px 80px;
+    background: #eee;
+    position: relative;
+    overflow: hidden;
+}
+
+.mb-tweet-preview:before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    content: '';
+    z-index: 10;
+}
+
+.mb-tweet-preview .tweets-column {
+    max-width: 590px;
+    position: relative;
+    bottom: -20px;
+    margin: auto;
+}
+
+.mb-tweet-preview .tweets-column ul {
+    margin: 0px;
+}
+
+.mb-tweet-preview .tweets-column li {
+    border: 1px solid #e1e8ed;
+    border-top: 0px;
+    margin: 0px;
+    padding: 10px 12px;
+    background: #fff;
+    padding-left: 70px;
+    position: relative;
+}
+
+.mb-tweet-preview .tweets-column li .avatar {
+    float: left;
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    margin-left: -58px;
+}
+
+.mb-tweet-preview .tweets-column li .avatar.small {
+    width: 32px;
+    height: 32px;
+    left: 16px;
+    top: 3px;
+    position: relative;
+}
+
+.mb-tweet-preview .tweets-column .preview-box {
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #BFE0EC;
+    background: #E5F2F7;
+}
+
+.mb-tweet-preview .tweets-column .preview-box #tweet-preview-box {
+    margin: 0px;
+    border-radius: 3px;
+    border: 1px solid #99CDE1;
+    outline: 0;
+    line-height: 20px;
+    padding: 8px 10px;
+    resize: none;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 38px;
+}
+
+.mb-tweet-preview .tweets-column .preview-box #tweet-preview em {
+    background: #FFB2B7;
+}
+
+.mb-tweet-preview .tweets-column .fake-tweet p {
+    margin: 0px;
+}
+
+.mb-tweet-preview .pull-right {
+    float: right;
+}
+
+.mb-tweet-preview li:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.mb-tweet-preview #count {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background: #fff;
+    color: #888;
+    display: block;
+    padding: 2px 4px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .mb-tweet-preview {
+        padding: 20px 10px 0px 10px;
+    }
+    
+}
+
+#tos-enabled {
+    margin-top: 10px;
+    display: none;
+}
+
+.tos-template-fields {
+    display: none;   
+}
+
+#tos-template {
+    width: 100%;
+}
+
+#tos-enable tw-template-learn-more {
+    top: 0px;
+}
+
+/* Tweet Wheel Queue */
+.tw-queue-page * {
+    box-sizing: border-box;
+}
+
+.tw-queue-page {
+    margin: 0px;
+    width: calc(100% + 20px);
+    height: 100%;
+    margin-left: -20px;
+    background: url('../images/twp-queue-bg.png') repeat-y top left;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+    overflow: hidden;
+}
+
+.tw-queue-page:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.tw-queue-tabs {
+    width: 180px;
+    float: left;
+    margin-top: 50px;
+}
+
+.tw-queue-tabs ul {
+    margin: 0px;
+    float: right;
+    max-width: 180px;
+}
+
+.tw-queue-tabs ul li {
+    margin: 0px;
+}
+
+.tw-queue-tabs ul li:nth-last-child(2) {
+    margin-bottom: 40px;
+}
+
+.tw-queue-tabs ul li > a {
+    display: block;
+    padding: 5px 5px 5px 17px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.4;
+    max-width: 160px;
+    width: 160px;
+    text-decoration: none;
+    color: #292929;
+}
+
+.tw-queue-tabs ul li > a.active,
+.tw-queue-tabs ul li > a:hover {
+    background: #FAFAFA;
+    opacity: 1;
+}
+
+.tw-queue-tabs ul li > a:before {
+    width: 8px;
+    height: 8px;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.tw-queue-tabs ul li > a.tw-queue-status-running:before { background: green; }
+.tw-queue-tabs ul li > a.tw-queue-status-paused:before { background: orange; }
+.tw-queue-tabs ul li > a.tw-queue-status-frozen:before { background: blue ; }
+
+
+.tw-queue-tabs ul li > a small {
+    display: block;   
+    font-weight: normal;
+}
+
+.twp-queue-content-wrapper {
+    float: left;
+    padding: 15px;
+    width: 620px;
+}
+
+.tw-queue-content {
+    width: 100%;
+    float: left;
+    background: #fafafa;
+    display: block;
+}
+
+.queue-tools {
+    margin: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.queue-tools:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.queue-tools li {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.queue-tools li .tw-queue-content-tab {
+    cursor: pointer;
+    opacity: 0.4;
+    text-decoration: none;
+    color: #292929;
+}
+
+.queue-tools li .tw-queue-content-tab.active,
+.queue-tools li .tw-queue-content-tab:hover {
+    opacity: 1;   
+}
+
+.queue-tools li:last-child:hover {
+    color: red;   
+}
+
+.tw-delete-queue { cursor: pointer; }
+
+.tw-queue-content-inner form {
+    position: relative;
+}
+
+.tw-queue-content-inner form:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ... */
+
+.twp-log li,
+.twp-log li h5 {
+    margin: 0px;  
+}
+
+.twp-log li {
+    margin-bottom: 5px;
+}
+
+.twp-log li div {
+    padding: 10px 10px 0px 10px;
+    background: #E5F6FF;
+    position: relative;
+}
+
+.twp-log li div:after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.twp-log li div.twp-log-entry-warning {
+    background: #FFFBD6;
+}
+
+.twp-log li div.twp-log-entry-error {
+    background: #FFD6D3;
+}
+
+.twp-log li div.twp-log-entry-has-note {
+    cursor: pointer;
+}
+
+.twp-log li div.twp-log-entry-has-note:before {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    content: "\f140";
+    display: block;
+    font-family: 'dashicons'
+}
+
+.twp-log li div time {
+    float: left;
+    background: rgba( 0, 0, 0, 0.1 );
+    padding: 10px;
+    margin: -10px 10px 0px -10px;
+}
+
+.twp-log li h5 {
+    font-size: 14px; 
+}
+
+.twp-log li p { 
+    width: 100%;
+    display: none; 
+    float: left;
+}
+
+/* ... */
+
+.form-saving-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 100;   
+}
+
+/* ... */
+
+.tw-alert {
+    background: #4F98D5 !important;
+    border: 0px !important;
+    color: #fff !important;
+    text-align: left;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+    margin: 5px 0 15px;
+}
+
+.tw-alert p {
+    margin: .5em 0;
+    padding: 2px;
+}
+.tw-alert:after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.about-wrap #tw-import-data-prompt.error {
+    position: absolute;
+    top: 0px;
+    display: block !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.about-wrap.auth-screen {
+    max-width: none;
+}
+
+.tw-white-spinner {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+    margin: 7px 0px;
+    margin-right: 10px;
+    background-image: url("../images/twp-white-spinner_20x20.png");
+    -webkit-animation: play .8s steps(18) infinite;
+       -moz-animation: play .8s steps(18) infinite;
+        -ms-animation: play .8s steps(18) infinite;
+         -o-animation: play .8s steps(18) infinite;
+            animation: play .8s steps(18) infinite;
+}
+
+@keyframes play {
+   from { background-position:  0px 0px; }
+     to { background-position:  0px -360px; }
+}
+
+#tw-queue .queue-tools {
+    text-align: left;
+    margin: 0px;
+}
+
+#tw-queue .queue-tools:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#tw-queue .queue-tools li {
+    float: left;
+    margin-right: 4px;
+}
+
+.the-queue ul {
+    margin: 0px;
+    counter-reset: queue-chunk;
+}
+
+.the-queue .the-queue-post {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    counter-increment: queue-chunk;
+}
+
+.the-queue .the-queue-post:nth-child(5n):after {
+    width: 30px;
+    content: counter(queue-chunk);
+    display: block;
+    bottom: 0px;
+    right: -30px;
+    position: absolute;
+    text-align: right;
+    font-size: 10px;
+    color: #ccc;
+    border-bottom: 1px dashed #ccc;
+}
+
+.refill-bar {
+    width: 100%;
+    height: 10px;
+    content: '';
+    display: block;
+    margin: 3px 0px; 
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+
+.refill-bar:before {
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: 1px;
+    display: block;
+}
+
+ refill-bar-top:before {
+     display: block;    
+ }
+
+.refill-bar.opened:before {
+    top: 0px;   
+}
+
+.the-queue > ul.simple .the-queue-post { margin-bottom: 3px; }
+
+.the-queue > ul.simple .refill-bar {
+    display: none;
+}
+
+.the-queue .the-queue-post:last-of-type {
+    margin: 0px;
+}
+
+.the-queue .the-queue-post.tweeted {
+    background: #fff;
+    opacity: 0.5;
+}
+
+.the-queue .the-queue-post.tweeted .post-header.title {
+    padding-left: 8px;
+}
+
+.the-queue .the-queue-post.tweeted .post-header time {
+    display: block;
+    border-top: 1px solid #eee;
+    margin: 0px 8px;
+    padding: 2px 0px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.the-queue .the-queue-post.tweeted:hover {
+    opacity: 1;
+}
+
+.the-queue .the-queue-post .post-header {
+    position: relative;
+    text-align: left;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.the-queue .the-queue-post .post-header .title {
+    cursor: pointer;
+    display: block;
+    padding: 8px 8px 8px 48px;
+    font-weight: bold;
+}
+
+.the-queue .the-queue-post .post-header .drag-handler { 
+    cursor: move; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 40px;
+    height: 100%;
+    border-right: 1px solid #eee;
+    display: block;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.the-queue .the-queue-post .post-content { 
+    border: 1px solid #eee;
+    border-top: 0px;
+    background: #FBFBFB;
+    display: none; 
+    text-align: left;
+    position: relative;
+}
+
+.the-queue .the-queue-post .post-content ul {
+    margin: 0px;
+    position: relative;
+}
+
+.the-queue .the-queue-post .post-content ul li {
+    padding: 8px;
+    border-top: 1px solid #eee;
+    margin-bottom: 0px;
+    display: none;
+    padding-right: 100px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.the-queue .the-queue-post .post-content ul li:first-child {
+    display: block;
+    border-top: 0px;
+}
+
+.the-queue .the-queue-post .post-content ul li.visible {
+    display: block !important;
+}
+
+.the-queue .the-queue-post .show-all-templates {
+    cursor: pointer;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.the-queue .the-queue-post .show-all-templates:hover {
+    background: #FBFBFB;
+}
+
+.the-queue .queue-post-sidebar {
+    border-top: 1px solid #eee;
+}
+
+.the-queue .queue-post-sidebar:after {
+    clear:both;
+    content: '';
+    display: table;
+}
+
+.the-queue .queue-post-tools {
+    margin-left: 48px;
+    margin-right: 8px;
+    margin-top: 0px;
+    float: left;
+}
+
+.the-queue .queue-post-tools li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.the-queue .queue-post-tools li a {
+    text-decoration: none;
+    color: #458DCF;
+}
+
+.the-queue .queue-post-tools li a span {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.the-queue .queue-icons {
+    float: right;
+    margin-top: 0px;
+}
+
+.the-queue .queue-icons li {
+    display: inline-block;  
+    margin-right: 10px;
+    margin-bottom: 0px;
+    height: 11px;
+    line-height: 11px;
+}
+
+.the-queue .queue-icons li span { 
+    font-size: 11px;
+    height: 11px;
+    line-height: 11px;
+    width: 11px;
+}
+
+.the-queue ul.simple .the-queue-post .post-content li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.the-queue ul.simple .the-queue-post .post-header .queue-post-tools,
+.the-queue ul.simple .the-queue-post .post-content,
+.the-queue ul.simple .queue-post-sidebar {
+    display: none !important;
+}
+
+.the-queue ul.simple .the-queue-post .post-header .title {
+    padding: 4px 4px 4px 48px;
+}
+
+.the-queue ul.simple .the-queue-post .post-header .drag-handler {
+    padding-top: 6px;
+}
+
+.the-queue ul.simple .the-queue-post .post-header .drag-handler img {
+    width: 14px;
+}
+
+.the-queue .post-icons {
+    width: auto;
+    float: right;
+    margin-top: 0px;
+    position: absolute !important;
+    top: 9px;
+    right: 10px;
+}
+
+.the-queue .post-icons li {
+    float: left;
+    display: block !important;
+    border: 0px !important;
+    padding: 0px !important;
+    line-height: 18px;
+    height: 18px;
+}
+
+.the-queue .post-icons li span { 
+    font-size: 11px;
+    line-height: 18px;
+    height: 18px;
+    width: 11px;
+}
+
+.tweet-wheel .feature-section {
+    width: 100%;
+}
+
+.return-to-dashboard {
+    text-align:center;
+    float: left;
+    width: 100%;
+}
+
+.tw-start-button.button {
+    display: inline-block;
+    width: 200px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0px 20px;
+    background: #4F99D5;
+    color: #fff;
+    border: 0px;
+    text-transform: uppercase;
+}
+
+.about-wrap .headline-feature h2 { text-align: center; }
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+}
+
+.section-note {
+    display: block;
+    font-size: 12px;
+    color: #a1a1a1;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.twp-hashtag-popup-close {
+    cursor: pointer;
+}
+
+#twp-hashtag-popup {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 575px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.twp-hashtag-popup-bar {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    clear: both;
+}
+
+.twp-hashtag-popup-close {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #448dcf;
+    text-align: center;
+    color: #fff;
+}
+
+.twp-hashtag-popup-title {
+    padding: 10px 30px;
+    font-size: 30px;
+    color: #448dcf;
+    font-weight: bold;
+}
+
+.twp-hashtag-popup-content {
+    padding: 30px;  
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.twp-chart {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.twp-latest-tweets {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.twp-latest-tweets h3,
+.twp-suggested-hashtags h3 {
+    color: #448dcf; 
+}
+
+.twp-latest-tweets h3 span,
+.twp-suggested-hashtags h3 span {
+    color: #000;   
+}
+
+.twp-latest-tweets ul {
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    height: 220px;
+    margin: 0px;
+}
+
+
+.twp-latest-tweets ul::-webkit-scrollbar {
+    display: none;
+}
+
+.twp-latest-tweets ul img {
+    float: left;
+    margin-right: 15px;
+}
+
+.twp-latest-tweets ul div {
+    padding-left: 70px;
+}
+
+.twp-latest-tweets ul p {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px !important;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.twp-latest-tweets ul date {
+    display: block;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.twp-suggested-hashtags {
+    float: left;   
+    width: 30%;
+}
+
+.twp-suggested-hashtags li {
+    display: inline-block;  
+    margin-right: 5px;
+}
+
+.twp-suggested-hashtags .twp-tag {
+    display: block;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgba(107, 164, 216, 0.3);
+    padding: 4px 4px 4px 8px;
+}
+
+.twp-suggested-hashtags .twp-tag:hover {
+    background: rgba(107, 164, 216, 0.3);
+}
+
+.twp-suggested-hashtags .twp-tag:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #6BA4D8;
+}
+
+/* ... */
+
+.fill-up-box {
+    display: none;  
+    width:100%;
+    float:left;
+    margin-bottom: 23px;
+}
+
+.fill-up-visible .fill-up-box {
+    display: block;
+}
+
+/** Tabs **/
+
+.fill-up-options {
+    width: 100%;
+    float: left;
+}
+
+.fill-up-options li {
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 0px;
+}
+
+.fill-up-options li span {
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.fill-up-options li span.active,
+.fill-up-options li span:hover {
+    background: #f0f0f0;
+}
+
+/** Content **/
+
+.fill-up-option-content {
+    background: #f0f0f0;
+    float: left;
+    width: 100%;
+    padding: 12px;
+    position: relative;
+}
+
+.fill-up-option-content:before {
+    width: 14px;
+    height: 14px;
+    background: #f0f0f0;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    margin-left: -7px;
+    content: '';
+    display: block;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/** Search tab **/
+
+.fill-up-search-results {
+    margin-top: 10px;   
+    max-height: 150px;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.fill-up-search-results h4 {
+    margin: 8px 0px 4px 0px;
+}
+
+.fill-up-search-results span {
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+    border: 1px solid #D7D7D7;
+    margin: 0px;   
+    margin-bottom: 3px;
+}
+
+.fill-up-search-results span:hover {
+    background: #B1FF81;   
+}
+
+.fill-up-pt {
+    text-align: left;
+    margin-bottom: 0px;
+    clear: both;
+}
+
+.fill-up-pt .row:after,
+.fill-up-pt:after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.fill-up-pt .row {
+    margin-bottom: 10px;   
+}
+
+.fill-up-pt .regular-text {
+    width: 60px;   
+}
+
+.fill-up-pt .date-to,
+.fill-up-pt .date-from {
+    width: 100px;   
+}
+
+.fill-up-pt p {
+    font-size: 11px;
+    color: #888;
+    font-style: italic;
+    margin: 3px 0px 0px;
+}
+
+.fill-up-pt .fill-counter {
+    line-height: 20px;
+    height: 20px;
+}
+
+.fill-up-pt .cpt-name,
+.fill-up-pt .cpt-params {
+    float: left;
+}
+
+.fill-up-pt .cpt-name {
+    width: 100px;
+}
+
+.twp-loader:before {
+    width: 50px;
+    height: 25px;
+    display: inline-block;
+    content: '';
+    background: rgba(241, 241, 241, 0.5) url('../images/ajax-loader.gif') no-repeat center center;
+}
+
+.twp-tooltip
+{
+    border: 1px solid #dedede;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    padding: 10px;
+    position: absolute;
+    z-index: 100;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 
+.twp-tooltip:after /* triangle decoration */
+{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #dedede;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+}
+
+.buttons-list li {
+    border: 1px solid #dedede;
+    background: #eee;
+    border-radius: 5px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.buttons-list li:last-child {
+    margin: 0px;
+}
+
+.buttons-list li:hover {
+    background: #fff;   
+}
+
+.manage-queue-tooltip {
+    margin:0px;
+    max-height: 130px;
+    overflow-y: scroll;
+}
+
+.manage-queue-tooltip li {
+    padding-right: 40px;
+    position: relative;
+}
+
+.manage-queue-tooltip li.in-queue {
+    background: #B1FF81;
+    border: 1px solid #A7F079;
+}
+
+.twp-schedule-form:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.form-top {
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    z-index: 200;
+    margin-bottom: 10px;
+}
+
+.form-status {
+    padding: 4px 5px;
+    display: inline-block;
+}
+
+.form-status.ok {
+    color: forestgreen;
+}
+
+.form-status.ok:before {
+    font-family: "dashicons";
+    content: "\f147";
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+
+.form-status.changed {
+    color: indianred;
+}
+
+.form-status.changed:before {
+    font-family: "dashicons";
+    content: "\f534";
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+
+.form-status.saving {
+    color: gray;
+}
+
+.form-status.saving:before {
+    width: 16px;
+    height: 12px;
+    content: '';
+    display: inline-block;
+    background: url('../images/ajax-loader.gif') no-repeat;
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+}
+
+.twp-clearfix::before,
+.twp-clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.twp-ui-datepicker {
+    z-index: 300 !important;   
+}
+
+label.schedule-type {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    float: left;
+    width: 100%;
+    background: #eee;
+    padding: 10px;
+}
+
+label.schedule-type.selected {
+    background: #458DCF;
+    color: #fff;
+}
+
+.twp-option-group {
+    border: 1px dashed #888;
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.twp-option-group h4 {
+    margin-top: 0px;   
+}
+
+.twp-option-group p {
+    margin: 0px;
+}
+
+.twp-schedule-date-times {
+    border: 1px dashed #888;
+    padding: 10px;
+}
+
+#twp-queue-tab-select { display: none; }
+
+.twp-notice {
+    background: #FFBEBB;
+    padding: 8px;
+    border: 1px solid #B70020;
+}
+
+.twp-auth-form {
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.twp-screen #wpfooter { display: none; }
+
+.twp-ads-block {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px 20px 0px;
+}
+
+.twp-ad {
+    margin-bottom: 20px;
+    border: 0px;
+    text-decoration: none;
+    clear: both;
+    display: block;
+    box-sizing: content-box;
+}
+
+.twp-ad img {
+    width: 260px;
+    height: auto;
+}
+
+@media screen and (max-width: 960px) {
+
+    .tw-queue-page {
+        background: #fafafa;   
+    }
+    
+    .tw-queue-tabs {
+        width: 100%;
+        margin-top: 0px;
+        background: #e9f1f8;
+    }
+    
+    .tw-queue-tabs ul { display: none; }
+    
+    #twp-queue-tab-select {
+        display: block;
+        margin: 10px 10px 10px 25px;
+    }
+    
+    .twp-queue-content-wrapper {
+        width: 100%;
+        padding: 15px 15px 15px 25px;
+    }
+    
+    .queue-tools li {
+        width: 50%;
+        margin:0px;
+        float: left !important;
+        margin-bottom: 15px !important;
+    }
+    
+    .queue-tools li > span,
+    .queue-tools li > a {
+        font-size: 18px;
+        display: block;
+    }
+    
+    .queue-tools li > span.tw-delete-queue {
+        opacity: 0.4;
+    }
+    
+    .form-top .twp-button {
+        width: 48%;
+        margin-right: 2%;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    
+    .form-top .twp-button:last-of-type {
+        margin: 0px;
+    }
+    
+    .form-top .form-status {
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .refill-bar {
+        height: 20px;
+        line-height: 20px;
+    }
+    
+    .refill-bar:before {
+        font-size: 18px;
+    }
+    
+    .fill-up-search-results span {
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    .fill-up-pt .regular-text,
+    .fill-up-pt .date-to, .fill-up-pt .date-from,
+    .schedule-span{
+        width: 100%;
+    }
+    
+    .the-queue .the-queue-post .post-header .drag-handler {
+        display: none;
+    }
+    
+    .the-queue .the-queue-post .post-header .title {
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    .the-queue .queue-post-tools {
+        width: 150px;
+        margin: 0px;
+        padding-left: 10px;
+    }
+    
+    .the-queue .queue-post-tools li {
+        width: 33.33%;
+        float: left;
+        margin: 0px;
+    }
+    
+    .the-queue .queue-post-tools li a {
+        font-size: 0px;
+        padding: 10px 0px;
+        display: block;
+    }
+    
+    .the-queue .queue-post-tools li a span {
+        font-size: 18px;
+    }
+    
+    .the-queue .the-queue-post .post-content ul li {
+        margin-left: 0px;
+    }
+    
+    .twp-ui-datepicker.ui-datepicker-inline {
+        box-sizing: border-box;
+    }
+    
+    .twp-schedule-date-calendar {
+        width: 100%;
+    }
+    
+    .twp-schedule-date-times {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width:961px) {
+    .schedule-tools > li {
+        position: relative;
+    }
+    
+    .schedule-tools ul {
+        width: 100%;
+        top: 24px;
+    }
+    
+    .twp-ads-block { 
+        width: 220px;
+        float: left;
+    }
+    
+    .twp-ad {
+        width: 260px;
+    }
+}
+
+@media (max-width:1180px) and (min-width:961px) {
+ 
+    .twp-ads-block { display: none; }
+    
+}
